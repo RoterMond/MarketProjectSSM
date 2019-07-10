@@ -1,0 +1,141 @@
+.my-nav {
+    height: 60px;
+    background-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.my-nav-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.my-nav-brand.a{
+    color: white;
+    text-decoration: none;
+}
+.my-nav-content {
+    display: flex;
+}
+
+.my-entry {
+    flex: 1;
+    text-align: end;
+    padding: 9px;
+}
+
+.my-entry ul li {
+    list-style: none;
+    display: inline-block;
+    color: #9d9d9d;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0px 10px;
+}
+.myheader {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background: #222;
+    border-bottom: 1px solid rgba(0, 40, 100, 0.12);
+    border-color:#080808;
+}
+.a1{
+    color: #9d9d9d;
+}
+.a1:hover {
+    color: white;
+    text-decoration: none;
+}
+.a2{
+    color: black;
+}
+.a2:hover{
+    color: black;
+}
+.a3{
+    color: #495057;
+}
+.a3:hover{
+    color: black;
+}
+.my-card{
+	height:665px;
+}
+
+
+
+body{
+    background-image: url("../img/1.jpg");
+}
+
+.form-label{
+    color: white;
+}
+.form-group{
+    float: left;
+    width: 45%;
+    margin: 20px;
+}
+.form-group input{
+    height: 580px;
+}
+.form-group textarea{
+    height: 460px;
+    resize: none;
+}
+.submit_button{
+    margin-left: 20px;
+}
+
+.submit_button input{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4aaf51;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.submit_button1 input{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4aaf51;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.cover_button input{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4aaf51;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 597px;
+    left: 761px;
+    z-index: -1;
+}
+.my-form-control{
+	text-align:top;
+}
+.a_down_load{
+    margin-top: -50px;
+}
+.a_down_load a{
+    color:dodgerblue;
+}

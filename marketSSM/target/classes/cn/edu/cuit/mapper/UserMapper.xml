@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.edu.cuit.dao.UserDao">
+    <!-- 查询 -->
+   	<select id="login" parameterType="java.util.Map" resultType="cn.edu.cuit.entity.User">
+   		select * from users where 
+   		user_name = #{user_name,jdbcType=VARCHAR}
+   		AND
+   		user_pass = #{user_pass,jdbcType=VARCHAR}
+   	</select>
+   	<select id="findUserByName" resultType="cn.edu.cuit.entity.User">
+   		select * from users where
+   		user_name = #{user_name}
+   	</select>
+   	<select id="findAllUser" resultType="cn.edu.cuit.entity.User">
+   		select * from users
+   	</select>
+</mapper>
